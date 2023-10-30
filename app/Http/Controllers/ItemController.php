@@ -23,6 +23,7 @@ class ItemController extends Controller
         //dump($request->itemPrice);
         //print_r($request->itemPrice);
         //die();
+        //Test Comment
         $item->item_price = doubleval($request->itemPrice);
         $item->cur_quantity = intval($request->curQuantity);
         $item->ro_level = intval($request->roLevel);
